@@ -26,14 +26,18 @@ We&#39;ll also be integrating our app with Sashido for push notifications for ou
 
   - Go to the https://github.com/soumallyadev07/Xanalyse and clone the the repository
 
-### - Unzip TFLClassify.zip
+### - Unzip TFLClassify.rar
 
-### Change Directory
+### - Change Directory
 
   - Change your directory and enter into the folder called - &quot;Model Training&quot;
   ```bash
   cd Model Training
   ```
+### - Go to https://www.kaggle.com/soumallyadev/pneumonia-xray-detection
+
+  - Download the Given Data Set
+  
 ### - Unzip chest_xay.zip
 
 ### - Open ModelTrain.py or ModelTrain.ipynb file
