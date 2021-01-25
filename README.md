@@ -4,7 +4,18 @@
 ##### Soumallya Dev
 
 # Table of Contents
-1. [Goals](#Goals)
+1. [Overview](#overview)
+2. [Goals](#goals)
+3. [Train our ML Model](#train-our-ml-model)
+4. [Set up the Android skeleton app](#set-up-the-android-skeleton-app)
+5. [Add TensorFlow Lite to the Android app](#add-tensorflow-lite-to-the-android-app)
+6. [Checking out all todo list](#checking-out-all-todo-list)
+7. [Run the custom model with TensorFlow Lite](#run-the-custom-model-with-tensorflow-lite)
+8. [FINAL APP RUN THROUGH](#final-app-run-through)
+9. [Connect SashiDo to Android Studio](#connect-sashido-to-android-studio)
+10. [Connect App using Parse](#connect-app-using-parse)
+11. [Push Notifications](#push-notifications)
+12. [References](#references)
 
 # Overview
 
