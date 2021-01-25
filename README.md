@@ -10,14 +10,14 @@ With the recent Pandemic, the need of ML in the medical field is necessary more 
 
 We will be building an ML Android App that can detect pneumonia using X-Rays and can further detect if the pneumonia is Viral or Bacterial(If Detected)
 
-We&#39;ll also be integrating our app with Sashido for push notifications for our users.
+We&#39;ll also be integrating our app with [SashiDo](http://www.sashido.io/) for push notifications for our users.
 
 # Goals
 
 - Make a predictive model that can detect Viral &amp; Bacteria Pneumonia
 - Set up Android App
 - Integrate the ML Model
-- Connect SashiDo for Push Notifications
+- Connect [SashiDo](http://www.sashido.io/) for Push Notifications
 
 #
 
@@ -297,7 +297,7 @@ private val flowerModel = xrayModel.newInstance(ctx, options)
 
 On a medium/high end mobile device, GPU is much faster than CPU. Low end devices tend to have slower GPUs, so the speedup you see will vary.
 
-### Connect SashiDo to Android Studio
+### Connect [SashiDo](http://www.sashido.io/) to Android Studio
 
  - Now go back to Android Studio and open your &quot;build.gradle(Project:Your project name)&quot; file
   - Add this code after the &quot;dependencies&quot; tag
@@ -383,7 +383,7 @@ Now let&#39;s test! In the main activity of your app, add this code:
 ```kotlin
 ParseInstallation.getCurrentInstallation().saveInBackground();
 ```
-Click run, and go to your SashiDo database. You should see the installation in your database.
+Click run, and go to your [SashiDo](http://www.sashido.io/) database. You should see the installation in your database.
 ![](https://i.ibb.co/0nDhmbB/Screenshot-346.png)
 ### Push Notifications
 
@@ -457,7 +457,7 @@ installation.saveInBackground()
 
 Remember to put your Sender Id in the <> (found on the firebase console).
 
-Now you can send push notifications! Run your app on a device/ emulator, and go to the SashiDo dashboard and click &quot;Push.&quot; Navigate to &quot;Send new push&quot; and type out your message. Make sure the preview is displayed on the android device, not the iPhone.
+Now you can send push notifications! Run your app on a device/ emulator, and go to the [SashiDo](http://www.sashido.io/) dashboard and click &quot;Push.&quot; Navigate to &quot;Send new push&quot; and type out your message. Make sure the preview is displayed on the android device, not the iPhone.
 ![](https://i.ibb.co/4ZWKnCG/Screenshot-352.png)
 ###
 ![](https://res.cloudinary.com/practicaldev/image/fetch/s--hCjVTm4x--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/9fjoswjz46vqnoh2fmgj.PNG)
