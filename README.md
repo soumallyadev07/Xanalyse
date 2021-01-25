@@ -100,7 +100,7 @@ The project contains two modules, **start** and **finish**. If you get stuck, re
 
 ![](https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android-beta/img/cede7f2b8b23c1a7.png)
 
-- Right-click on the start module or click on File, then New \&gt; Other \&gt; TensorFlow Lite Model
+- Right-click on the start module or click on File, then New -> Other -> TensorFlow Lite Model
 
 ![](https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android-beta/img/bf243d9fdd27e20a.png)
 
@@ -314,7 +314,7 @@ allprojects {
 
 Now, go to your &quot;build.gradle(Module:app)&quot; file and add this implementation
 ```Kotlin
-implementation &quot;com.github.parse-community.Parse-SDK-Android:parse:[Latest:Version:Here]&quot;
+implementation "com.github.parse-community.Parse-SDK-Android:parse:latest_Jitpack_Version_Here"
 ```
 Note: You can find the latest version at jitpack.io
 
@@ -411,9 +411,7 @@ implementation 'com.google.firebase:firebase-messaging:17.2.2'
 ```
 REMEMBER TO MAKE SURE YOU HAVE ALL THE IMPLEMENTATIONS LISTED ON THIS SCREEN!
 
-Now, go to the project settings on firebase
-
-Then go to the cloud messaging tab
+Now, go to the project settings on firebase and then go to the cloud messaging tab and copy the Sender ID and the Server Key
 
 Now, go to SashiDo&#39;s dashboard and go to &quot;App Settings&quot; and then &quot;Push&quot;. Then copy-paste the Sender ID and the Server Key into the appropriate boxes and click save.
 
@@ -468,6 +466,8 @@ Make sure the android button is selected
 
 Finally, click &quot;Send&quot; and your device should get a notification!
 
+![](https://i.ibb.co/CPt4x14/Whats-App-Image-2021-01-25-at-21-29-35-1-page-0001.jpg)
+
 ## References
 
 -  [https://blog.sashido.io/tag/tutorial/](https://blog.sashido.io/tag/tutorial/)
@@ -475,6 +475,8 @@ Finally, click &quot;Send&quot; and your device should get a notification!
 -  [https://docs.parseplatform.org/android/guide/](https://docs.parseplatform.org/android/guide/)
     
 -  https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android-beta/
+
+-  https://blog.sashido.io/sashidos-getting-started-guide/#spreadyourmessagewithpushnotifications
 
 # Closing Remarks
 **I hope this tutorial is helpful for beginners and helps induce the passion of coding, development, Machine Learning and above all, problem solving.**
