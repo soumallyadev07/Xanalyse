@@ -3,6 +3,8 @@
 
 ##### Soumallya Dev
 
+# Table of Contents
+1. [Goals](#Goals)
 
 # Overview
 
